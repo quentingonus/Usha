@@ -149,6 +149,6 @@ app.post('/update', (req, res)=>{
     });
 });
 
-const port = process.env.PORT || 7777;
+const port = process.env.PORT || 8000;
 app.listen(port,
     () => console.log("Server is running on ", port));
